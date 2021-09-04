@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+
+h3{
+    position: absolute;
+   color:white;
+    left:30%;
+    font-size: 200%;
+}
+p{
+    position: absolute;
+    color:white;
+    left:30%;
+    font-size: 200%;
+
+}
+
+ 
+ /* Button style */
+ button {
+    position: absolute;
+    top:80%;
+    left:45%; 
+    background-color: teal;
+    padding: 15px 20px;
+    border-radius: 50px;
+    
+    
+    cursor: pointer;
+    
+    
+   
+    
+  }
+ 
+  
+  
+    
+  
+ 
+ 

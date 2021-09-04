@@ -1,0 +1,81 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(7, 120px);
+  grid-template-rows: repeat(1,100px);
+  background:rgb(61, 138, 254);
+  justify-content: center;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  box-shadow:5px 5px rgba(0,0,0,0.441) ;
+  width: 900px;
+  height: 600px;
+  padding: 1%;
+}
+.cell{
+  border: 5px, solid black;
+  border-radius: 50%;
+  background-color: white;
+  
+  
+}
+.cell:hover{
+  background-color: rgb(0, 117, 128);
+}
+
+h3
+{
+  font-size: 150%;
+  position: absolute;
+  top:40%;
+  left:5%;
+}
+
+
+/* Button style */
+button {
+  border: none;
+  border-radius: 2px;
+  padding: 15px 24px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  background-color: #2196f3;
+  box-shadow: 0 0 4px #999;
+  outline: none;
+}
+header{
+  
+  font-size: 60px;
+  text-align: center;
+}
+
+
+ .main {
+   position: absolute;
+   top:11%;
+   left:70%; 
+   cursor: pointer;
+  }
+
+  .newGame {
+   position: absolute;
+   top:11%;
+   left:20%; 
+   cursor:pointer;
+  }
+  .oneBackground-color{
+color: 'red'
+  }
+  .twoBackground-color{
+    color: 'yellow'
+  }
+
+
+
